@@ -124,6 +124,8 @@ export const Record: React.FC<Props> = ({ offsetY }: Props) => {
 const Circle = () => {
   const { track } = usePlayer();
   const { percent } = useAnimation();
+  console.log(track);
+  
 
   const style = useAnimatedStyle(() => {
     return {

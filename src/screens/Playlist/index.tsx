@@ -14,7 +14,7 @@ import { Title } from './Title';
 import { Tabbar } from './Tabbar';
 import { Lists } from './Lists';
 
-export const Playlist = () => {
+export const Playlist = ({navigation}) => {
   const { setLists, setTracks } = usePlaylist();
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export const Playlist = () => {
 
   return (
     <View style={styles.container}>
-      <Header />
+      <Header navigation={navigation}/>
       <Title />
       <Tabbar />
       <Lists />
