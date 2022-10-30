@@ -17,6 +17,7 @@ import { Header } from './Header';
 import { Section } from './Section';
 import { Actions } from './Actions';
 import { NextPrev } from './NextPrev';
+import {Colors} from '../../constants';
 
 import {
   WIDTH,
@@ -106,6 +107,6 @@ const styles = StyleSheet.create({
 
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: 'rgb(27, 35, 35)',
+    backgroundColor: Colors.background,
   },
 });

@@ -5,7 +5,7 @@ import { IconProps } from './interfaces';
 
 export const Pause: React.FC<IconProps> = ({
   size = 30,
-  fill = 'rgb(255, 255, 255)',
+  fill = 'black',
 }: IconProps) => {
   return (
     <Svg width={size} height={size} viewBox="0 0 61 84">

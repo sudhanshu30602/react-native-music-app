@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: HANDLE_HEIGHT,
     position: 'absolute',
+    borderRadius: 15,
     top: 0,
     left: 0,
     zIndex: 99,

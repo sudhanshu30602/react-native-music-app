@@ -2,10 +2,10 @@ import { ImageRequireSource } from 'react-native';
 import { ITrack } from 'src/interfaces';
 
 export const defaultTrack: ITrack = {
-  id: '1',
+  id: '',
   title: 'undefined',
   artist: 'undefined',
-  url: '',
+  source: '',
   duration: '0',
   artwork: 0 as ImageRequireSource,
 };

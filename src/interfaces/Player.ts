@@ -4,8 +4,8 @@ export interface ITrack {
   id: string;
   title: string;
   artist: string;
-  url: string;
+  source: string;
   duration: string;
-  artwork?: ImageRequireSource;
-  last?: boolean;
+  artwork?: any;
+  //last?: boolean;
 }

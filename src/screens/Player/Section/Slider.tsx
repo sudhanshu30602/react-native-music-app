@@ -273,7 +273,7 @@ export const Slider: React.FC<Props> = ({
                 <AnimatedPath
                   d={d}
                   fill="none"
-                  stroke="rgba(227, 42, 118, .5)"
+                  stroke={'rgb(30,144,255)'}
                   strokeWidth={3}
                   strokeDasharray={strokeDasharray}
                   animatedProps={shadowPathProps}
@@ -296,7 +296,7 @@ export const Slider: React.FC<Props> = ({
 
                 <AnimatedCircle
                   r={circle + 1}
-                  fill={'rgba(227, 42, 118, .3)'}
+                  fill={'rgb(30,144,255)'}
                   animatedProps={circleProps}
                 />
               </Svg>

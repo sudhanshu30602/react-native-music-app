@@ -11,6 +11,7 @@ import { Back, Search, Options } from 'src/icons';
 
 import { HEADER_HEIGHT } from '../Dimensions';
 import { useAnimation } from '../Context';
+import { Colors } from 'src/constants';
 
 interface Props {}
 

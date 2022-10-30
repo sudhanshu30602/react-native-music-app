@@ -13,7 +13,7 @@ interface Props extends IconProps {
 export const Next: React.FC<Props> = ({
   size = 30,
   opacity,
-  fill = 'rgb(255, 255, 255)',
+  fill = 'black',
 }: Props) => {
   const animatedProps = useAnimatedProps(() => {
     return {

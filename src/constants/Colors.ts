@@ -1,10 +1,21 @@
 export const Colors = {
-  background: 'rgb(35,43,43)',
+  background: 'rgb(240,255,255)',
   foreground: 'rgb(23,30,31)',
   mute: 'rgb(121, 127, 139)',
-  white: 'rgb(255, 255, 255)',
+  white: 'rgb(0,0,0)',
   light: 'rgb(168, 178, 177)',
   black: 'rgb(0,0,0)',
-  primary: 'rgb(227, 42, 118)',
+  primary: 'rgb(30,144,255)',
   blue: 'rgb(103, 213, 254)',
 };
+
+// export const Colors = {
+//   background: 'rgb(35,43,43)',
+//   foreground: 'rgb(23,30,31)',
+//   mute: 'rgb(121, 127, 139)',
+//   white: 'rgb(255, 255, 255)',
+//   light: 'rgb(168, 178, 177)',
+//   black: 'rgb(0,0,0)',
+//   primary: 'rgb(227, 42, 118)',
+//   blue: 'rgb(103, 213, 254)',
+// };

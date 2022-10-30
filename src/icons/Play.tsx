@@ -5,7 +5,7 @@ import { IconProps } from './interfaces';
 
 export const Play: React.FC<IconProps> = ({
   size = 30,
-  fill = 'rgb(255, 255, 255)',
+  fill = 'black',
 }: IconProps) => {
   return (
     <Svg width={size} height={size} viewBox="0 0 500 500">

@@ -1,11 +1,12 @@
 import React from 'react';
 import Svg, { Path } from 'react-native-svg';
+import { Colors } from 'src/constants';
 
 import { IconProps } from './interfaces';
 
 export const Search: React.FC<IconProps> = ({
   size = 30,
-  fill = 'rgb(255, 255, 255)',
+  fill = Colors.black,
 }: IconProps) => {
   return (
     <Svg width={size} height={size} viewBox="0 0 39 40">

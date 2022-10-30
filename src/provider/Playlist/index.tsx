@@ -24,6 +24,15 @@ export const PlaylistProvider: React.FC<Props> = ({ children }: Props) => {
   const updateTrackPlayer = async (current: number) => {
     setActive(current);
 
+    console.log('heu');
+    console.log(tracks);
+    console.log('dsfc x');
+    console.log(lists);
+    
+    
+    
+    
+
     if (tracks.length && lists.length) {
       // simulate sql databases
       // find items in active playlist
@@ -34,6 +43,10 @@ export const PlaylistProvider: React.FC<Props> = ({ children }: Props) => {
       await TrackPlayer.reset();
 
       // @ts-ignore
+      console.log('fff');
+     console.log(activeTracks);
+      
+      
       await TrackPlayer.add(activeTracks).then(function () {});
     }
   };
